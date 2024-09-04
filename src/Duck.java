@@ -1,7 +1,24 @@
 public class Duck {
+    public void setFlyableBehaviour(FlyableBehaviour flyableBehaviour) {
+        this.flyableBehaviour = flyableBehaviour;
+    }
 
+    public FlyableBehaviour getFlyableBehaviour() {
+        return flyableBehaviour;
+    }
 
     FlyableBehaviour flyableBehaviour;
+
+    public void setQuackableBehaviour(QuackableBehaviour quackableBehaviour) {
+        this.quackableBehaviour = quackableBehaviour;
+    }
+
+    public QuackableBehaviour getQuackableBehaviour() {
+        return quackableBehaviour;
+    }
+
+    QuackableBehaviour quackableBehaviour;
+
     public static void main(String[] args) {
 
     }
