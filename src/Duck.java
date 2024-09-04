@@ -11,6 +11,7 @@ public class Duck {
 
     public void setQuackableBehaviour(QuackableBehaviour quackableBehaviour) {
         this.quackableBehaviour = quackableBehaviour;
+        quackableBehaviour.quack();
     }
 
     public QuackableBehaviour getQuackableBehaviour() {
