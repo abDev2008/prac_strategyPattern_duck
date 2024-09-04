@@ -10,7 +10,5 @@ public class Main {
     d.setQuackableBehaviour(m);
     d.setQuackableBehaviour(q);
     d.display();
-
-
     }
 }
