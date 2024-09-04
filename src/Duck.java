@@ -17,7 +17,6 @@ public class Duck {
     public QuackableBehaviour getQuackableBehaviour() {
         return quackableBehaviour;
     }
-
     QuackableBehaviour quackableBehaviour;
 
     public static void main(String[] args) {
